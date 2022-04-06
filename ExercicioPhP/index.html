@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/application.css">
+    <title>Learning PhP</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>Calcular média</h1>
+        <form name="avaliacao" method="post" action="calculo.php">
+            Informe o seu nome: <input type="text" name="nome" id="nome" size="40" required="required" placeholder="Insira o seu nome..."><br><br>
+            Digite sua 1º nota: <input type="text" name="nota01" id="nota01" size="40" required="required" max_length="2" placeholder="Insira sua primeira nota..."><br><br>
+            Digite sua 2º nota: <input type="text" name="nota02" id="nota02" size="40" required="required" max_length="2" placeholder="Insira sua segunda nota..."><br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </main>
+</body>
+
+</html>

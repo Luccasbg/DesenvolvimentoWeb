@@ -1,0 +1,1 @@
+Exercício, proposto pelos professores da Etec Professor Camargo Aranha, com o objetivo de calcular a média de um aluno. 
